@@ -21,31 +21,6 @@ ul {
     list-style: none;
 }
 
-
-.overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: rgba(43, 41, 41, 0.861);
-}
-
-
-.overlay {
-    display: grid;
-    grid-template-columns: 80%;
-    grid-template-rows: 80%;
-    place-content: center;
-    overflow: hidden;
-}
-
-
-.overlay iframe {
-    pointer-events: all;
-}
-
-
 * {
     box-sizing: content-box;
     width: 100%;
@@ -78,9 +53,4 @@ ul {
 }
 
 
-* {
-    box-sizing: content-box;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-}
+
